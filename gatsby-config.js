@@ -37,6 +37,13 @@ module.exports = {
 			}
 		},
 		{
+			resolve: `gatsby-plugin-favicon`,
+			options: {
+				logo: './static/media/favicon.png'
+			}
+		},
+
+		{
 			resolve: 'gatsby-plugin-feed',
 			options: {
 				query: `
