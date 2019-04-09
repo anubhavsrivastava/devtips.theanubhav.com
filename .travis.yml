@@ -1,16 +1,8 @@
 language: node_js
 node_js:
-  - '8'
-  - '9'
-  - '10'
-install:
-  - npm install -g codecov
+    - '11.10.1'
 script:
-  - yarn install
-  - yarn lint
-  - yarn test:coverage --runInBand --no-cache
-  - yarn test --runInBand --no-cache
-  - codecov
+    - yarn run deploy
 cache:
-  directories:
-    - node_modules
+    directories:
+        - node_modules
