@@ -22,6 +22,7 @@ const Author = ({ author, isIndex }) => (
 			</h2>
 		)}
 		<p className={styles['author__subtitle']}>{author.bio}</p>
+		<p className={styles['author__subtitle']}>Personal devtips for Web Developers</p>
 	</div>
 );
 
