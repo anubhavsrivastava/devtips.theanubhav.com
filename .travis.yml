@@ -2,7 +2,7 @@ language: node_js
 node_js:
     - '11.10.1'
 script:
-    - yarn run deploy
+    - yarn run build
 cache:
     directories:
         - node_modules
