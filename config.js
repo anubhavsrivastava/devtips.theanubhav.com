@@ -25,14 +25,11 @@ module.exports = {
 	author: {
 		name: 'Anubhav Srivastava',
 		photo: 'https://avatars2.githubusercontent.com/u/6449301?s=460&v=4',
-		bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+		bio: 'Web Developer. Part time Open source contributor. ',
 		contacts: {
-			email: '#',
-			telegram: '#',
-			twitter: '#',
-			github: '#',
-			rss: '#',
-			vkontakte: '#'
+			email: 'anubhav.srivastava00@gmail.com',
+			twitter: 'onlyanubhav',
+			github: 'anubhavsrivastava'
 		}
 	}
 };
