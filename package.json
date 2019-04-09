@@ -1,7 +1,7 @@
 {
-	"version": "3.0.0",
-	"name": "gatsby-starter-lumen",
-	"description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
+	"version": "1.0.0",
+	"name": "devtips.theanubhav.com",
+	"description": "Personal quick tips for Web Developers",
 	"main": "n/a",
 	"scripts": {
 		"develop": "npm run clean && gatsby develop",
@@ -9,32 +9,15 @@
 		"deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
 		"clean": "rimraf .cache public",
 		"lint:js": "eslint --cache --ext .js,.jsx --ignore-pattern public .",
-		"lint:scss": "stylelint \"src/**/*.scss\"",
 		"lint": "concurrently \"npm run lint:js\" \"npm run lint:scss\"",
 		"test": "jest --config ./tests/jest-config.js",
 		"test:coverage": "jest --coverage --config ./tests/jest-config.js",
 		"test:watch": "jest --watch --config ./tests/jest-config.js"
 	},
 	"repository": "https://github.com/anubhavsrivastava/devtips.theanubhav.com",
-	"author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
-	"license": "MIT",
+	"author": "Anubhav Srivastava <anubhav.srivastava00@gmail.com>",
 	"keywords": [
-		"gatsby",
-		"graphql",
-		"netlify",
-		"netlify-cms",
-		"pagination",
-		"categories",
-		"tags",
-		"prismjs",
-		"static",
-		"lost",
-		"blog",
-		"minimal",
-		"react",
-		"theme",
-		"starter",
-		"disqus"
+		"devtips"
 	],
 	"dependencies": {
 		"bluebird": "^3.5.4",
