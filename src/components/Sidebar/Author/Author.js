@@ -22,7 +22,16 @@ const Author = ({ author, isIndex }) => (
 			</h2>
 		)}
 		<p className={styles['author__subtitle']}>{author.bio}</p>
-		<p className={styles['author__subtitle']}>Site provides personal quick tips for Web Developers</p>
+		<p className={styles['author__subtitle']}>
+			<a style={{ margin: '20px' }} href="//about.theanubhav.com">
+				About me
+			</a>
+
+			<a style={{ margin: '20px' }} href="//theanubhav.com">
+				Blogs
+			</a>
+		</p>
+		<p className={styles['author__subtitle']}>Site for personal quick tips for Web Developers</p>
 	</div>
 );
 
