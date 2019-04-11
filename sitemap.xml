@@ -3,11 +3,12 @@
 <url> <loc>http://devtips.theanubhav.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/become-a-better-developer-30-seconds-of-knowledge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://devtips.theanubhav.com/posts/stick-your-notes-on-any-site</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/starting-to-chalk-down-small-tips/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://devtips.theanubhav.com/tag/chrome-extension</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://devtips.theanubhav.com/tag/browser-addon</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/learning-to-write</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/tools</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://devtips.theanubhav.com/category/chrome-extension</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://devtips.theanubhav.com/category/browser-addon</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/category/website-inspiration</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
