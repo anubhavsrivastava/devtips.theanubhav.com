@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>http://devtips.theanubhav.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://devtips.theanubhav.com/posts/become-a-better-developer-30-seconds-of-knowledge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://devtips.theanubhav.com/posts/stick-your-notes-on-any-site</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/starting-to-chalk-down-small-tips/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://devtips.theanubhav.com/posts/stick-your-notes-on-any-site</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://devtips.theanubhav.com/posts/become-a-better-developer-30-seconds-of-knowledge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/browser-addon</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/learning-to-write</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/tools</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
