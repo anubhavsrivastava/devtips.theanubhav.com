@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Quick tips by Anubhav Srivastava]]></title><description><![CDATA[Personal quick tips for Web Developers]]></description><link>http://devtips.theanubhav.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 11 Apr 2019 05:32:57 GMT</lastBuildDate><item><title><![CDATA[Stick your notes on any site]]></title><description><![CDATA[Take your own notes for a page of a site or anywhere on the web via Firefox Addon. The notes persist for that site for future use. ]]></description><link>http://devtips.theanubhav.com/posts/stick-your-notes-on-any-site</link><guid isPermaLink="false">http://devtips.theanubhav.com/posts/stick-your-notes-on-any-site</guid><pubDate>Thu, 11 Apr 2019 18:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Sticky Notes&lt;/code&gt; is a browser extension that helps in taking notes for a site, that too on the site itself. The notes persists for future use and can be used to chalk down notes or important points for that page/site. These draggable notes can be placed anywhere on the page, where ever it may be relevant. You can create notes via context menu or using shortcut keys. Usage guide is mentioned in the extension page.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Quick tips by Anubhav Srivastava]]></title><description><![CDATA[Personal quick tips for Web Developers]]></description><link>http://devtips.theanubhav.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 12 Apr 2019 05:37:13 GMT</lastBuildDate><item><title><![CDATA[Download Youtube videos with "youtube-dl"]]></title><description><![CDATA[Download Youtube videos with `youtube-dl`, a CLI based utility to download videos in desired format, download entire playlist, download only new videos and what not.]]></description><link>http://devtips.theanubhav.com/posts/download-youtube-videos-with-youtubedl</link><guid isPermaLink="false">http://devtips.theanubhav.com/posts/download-youtube-videos-with-youtubedl</guid><pubDate>Fri, 12 Apr 2019 18:05:00 GMT</pubDate><content:encoded>&lt;p&gt;There are plenty of download tools available for Youtube videos. But someday or the other they shall disappoint you. For asking for ransom to keep using, or failing to download every now and then, download would suck; especially for OSX users.&lt;/p&gt;
+&lt;p&gt;For some time I have been using &lt;code class=&quot;language-text&quot;&gt;youtube-dl&lt;/code&gt; (which I had mentioned in &lt;a href=&quot;/posts/stick-your-notes-on-any-site&quot;&gt;other post&lt;/a&gt;) and it has worked like a charm for me. It is a CLI tool with huge options, right from video/audio quality to downloading only latest videos and what not.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Here is my bash script to download videos (video or playlist) and save it in &lt;code class=&quot;language-text&quot;&gt;~/DownloadsYT/Videos&lt;/code&gt; folder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Usage: youtube-video “Complete video URL”&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;    ## Filename: youtube-video
+    #!/bin/bash
+
+    if [ ! -d ~/DownloadsYT/Videos ]; then
+    mkdir -p ~/Downloads/YTVideos
+    fi
+
+    cd ~/Downloads/YTVideos || return
+
+    youtube-dl --yes-playlist -f &amp;#39;bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best&amp;#39; --merge-output-format mp4 -o &amp;#39;%(title)s-%(id)s-%(format_id)s.%(ext)s&amp;#39; &amp;quot;$1&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Similarly to download an mp3, (in &lt;code class=&quot;language-text&quot;&gt;~/Downloads/TYMusic&lt;/code&gt; folder)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Usage: youtube-audio “Complete video URL”&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;    ## Filename: youtube-audio
+    #!/bin/bash
+
+    if [ ! -d ~/Downloads/TYMusic ]; then
+        mkdir -p ~/Downloads/TYMusic
+    fi
+
+    cd ~/Downloads/TYMusic || return
+
+
+    format=mp3
+
+
+    youtube-dl --prefer-ffmpeg -f 171/251/140/bestaudio --extract-audio --audio-format &amp;quot;$format&amp;quot; --audio-quality 0 &amp;quot;$1&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;There has been some GUI version of this utility but I prefer the script version.&lt;/p&gt;
+&lt;p&gt;Official Site: &lt;a href=&quot;https://ytdl-org.github.io/youtube-dl/index.html&quot;&gt;youtube-dl&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Stick your notes on any site]]></title><description><![CDATA[Take your own notes for a page of a site or anywhere on the web via Firefox Addon. The notes persist for that site for future use. ]]></description><link>http://devtips.theanubhav.com/posts/stick-your-notes-on-any-site</link><guid isPermaLink="false">http://devtips.theanubhav.com/posts/stick-your-notes-on-any-site</guid><pubDate>Thu, 11 Apr 2019 18:05:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Sticky Notes&lt;/code&gt; is a browser extension that helps in taking notes for a site, that too on the site itself. The notes persists for future use and can be used to chalk down notes or important points for that page/site. These draggable notes can be placed anywhere on the page, where ever it may be relevant. You can create notes via context menu or using shortcut keys. Usage guide is mentioned in the extension page.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Sticky Notes&lt;/code&gt; by Hiroki Kumamoto is available as &lt;a href=&quot;https://chrome.google.com/webstore/detail/stickynotes/imcecnigpdchlakcljkjjhddmilnmcji&quot;&gt;Chrome Extension&lt;/a&gt; and &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/sticky-notes/&quot;&gt;Firefox Addon&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;I use it to chalk down action items from PRDs, Design specification, etc that I have to work upon. It is really helpful on github pages to note points for that repository like configuration option, current version which I am using for update purpose, pull-request/issue notes, or common usage cli command. I usually end up forgetting cli options for various tools, like &lt;a href=&quot;https://github.com/ytdl-org/youtube-dl&quot;&gt;youtube-dl&lt;/a&gt;, and pin frequent cli commands for them on the web.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/media/sticky-notes.png&quot; alt=&quot;Screenshot&quot;&gt;&lt;/p&gt;
