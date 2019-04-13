@@ -7,6 +7,7 @@ slug: '/posts/starting-to-chalk-down-small-tips/'
 category: 'Website Inspiration'
 tags:
     - 'Learning to write'
+    - 'Blog'
 description: '"A journey of a thousand miles begins with a single step" is a common saying that originated from a famous Chinese proverb. So here is a dedicated place on the web to talk and chalk out some of my personal small tips for developers. '
 ---
 

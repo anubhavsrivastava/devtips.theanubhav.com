@@ -4,10 +4,10 @@ date: '2019-04-11T18:05:00.738Z'
 template: 'post'
 draft: false
 slug: '/posts/stick-your-notes-on-any-site'
-category: 'Browser addon'
+category: 'Browser'
 tags:
     - 'Tools'
-    - 'Browser Addon'
+    - 'Browser'
 description: 'Take your own notes for a page of a site or anywhere on the web via Firefox Addon. The notes persist for that site for future use. '
 ---
 

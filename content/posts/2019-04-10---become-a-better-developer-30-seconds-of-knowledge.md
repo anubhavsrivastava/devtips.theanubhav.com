@@ -4,10 +4,10 @@ date: '2019-04-10T18:05:00.738Z'
 template: 'post'
 draft: false
 slug: '/posts/become-a-better-developer-30-seconds-of-knowledge/'
-category: 'Browser Addon'
+category: 'Browser'
 tags:
     - 'Tools'
-    - 'Browser Addon'
+    - 'Browser'
 description: 'Gain new developer skills every time you open a New Tab! Choose which programming languages you want to get better at in options and get smarter every time you open a New Tab. All you need is 30 seconds to read and understand snippets of code and improve your knowledge.'
 ---
 
