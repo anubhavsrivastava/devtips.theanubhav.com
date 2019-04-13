@@ -11,7 +11,7 @@ tags:
 description: 'Take your own notes for a page of a site or anywhere on the web via Firefox Addon. The notes persist for that site for future use. '
 ---
 
-`Sticky Notes` is a browser extension that helps in taking notes for a site, that too on the site itself. The notes persists for future use and can be used to chalk down notes or important points for that page/site. These draggable notes can be placed anywhere on the page, where ever it may be relevant. You can create notes via context menu or using shortcut keys. Usage guide is mentioned in the extension page.
+`Sticky Notes` is a browser extension that helps in taking notes for a site, that too on the site itself. The notes persists for future use and can be used to chalk down notes or important points for that page/site. These drag-able notes can be placed anywhere on the page, where ever it may be relevant. You can create notes via context menu or using shortcut keys. Usage guide is mentioned in the extension page.
 
 `Sticky Notes` by Hiroki Kumamoto is available as [Chrome Extension](https://chrome.google.com/webstore/detail/stickynotes/imcecnigpdchlakcljkjjhddmilnmcji) and [Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/sticky-notes/) .
 
