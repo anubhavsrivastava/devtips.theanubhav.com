@@ -9,83 +9,86 @@
 /sw.js
   Cache-Control: no-cache
 /offline-plugin-app-shell-fallback/
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-daaa6b950fd73a579c2d.js>; rel=preload; as=script
 /404
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /tags
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /categories
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
-  Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
-/posts/become-a-better-developer-30-seconds-of-knowledge/
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /posts/starting-to-chalk-down-small-tips/
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
-  Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
-/posts/download-youtube-videos-with-youtubedl
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
-  Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
-/posts/spell-check-vscode
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
-  Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
-/posts/cloud-vscode-ide
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
-  Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
-/posts/stick-your-notes-on-any-site
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /posts/read-mode-tool
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
+  Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
+/posts/become-a-better-developer-30-seconds-of-knowledge/
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
+  Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
+/posts/stick-your-notes-on-any-site
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
+  Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
+/posts/download-youtube-videos-with-youtubedl
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
+  Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
+/posts/extensions-for-github
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
+  Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
+/posts/cloud-vscode-ide
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
+  Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
+/posts/spell-check-vscode
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /tag/bash
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /tag/blog
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /tag/browser
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /tag/ide
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /tag/learning-to-write
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /tag/server
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /tag/tools
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /tag/tools/page/1
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /tag/youtube
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /category/browser
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /category/ide
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /category/tools
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /category/website-inspiration
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /page/1
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
 /all
-  Link: </webpack-runtime-5f42b8c91ccfb0a9d4e3.js>; rel=preload; as=script
+  Link: </webpack-runtime-33b185aa703a60c0f09e.js>; rel=preload; as=script
   Link: </styles.6018ab4296815cfc2e0c.css>; rel=preload; as=script
