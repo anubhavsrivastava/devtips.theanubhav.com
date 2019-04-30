@@ -33,4 +33,6 @@ Other guides for code-server,
 -   Quick start guides for installing on [Google Cloud](https://github.com/codercom/code-server/blob/master/doc/admin/install/google_cloud.md), [AWS](https://github.com/codercom/code-server/blob/master/doc/admin/install/aws.md), and [Digital Ocean](https://github.com/codercom/code-server/blob/master/doc/admin/install/digitalocean.md).
 -   How to [secure your setup](https://github.com/codercom/code-server/blob/master/doc/security/ssl.md) via self-signed certificates.
 
+There is also tool called [sshcode](https://github.com/cdr/sshcode) which is a CLI to automatically install and run code-server over SSH.
+
 Official Site: [Coder](https://coder.com/)
