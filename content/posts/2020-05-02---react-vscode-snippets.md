@@ -27,13 +27,13 @@ Similarly, for react/redux there is VSCode extension to bring snippets for React
 For React/Redux, the best such extension is `ES7 React/Redux/GraphQL/React-Native snippets` by dsznajder. It can be installed using `Extension` tab in VSCode (key shortcut in mac, Command+Shift+X ) and type `ES7 React` followed by enter.
 
 It has plenty of snippets for React, Redux and Graphql in JS/TS with ES7 syntax.
-For example, in \*.js file (or supported files), typing `imr` follwoed by →Tab would expand into `import React from 'react'` or typing `imrc` follwoed by →Tab would expand into `import React, { Component } from 'react'`.
+For example, in \*.js file (or supported files), typing `imr` followed by →Tab would expand into `import React from 'react'` or typing `imrc` followed by →Tab would expand into `import React, { Component } from 'react'`.
 
 You can search through snippets with ES7 snippet search command which can be run with `CMD + Shift + P` or just use `CMD + Shift + R` keybinding.
 
 ![Screenshot](/media/snippetsReact.png)
 
-I end up with lot of frequent component creation and below snippets are my fav,
+I end up with a lot of frequent component creation and below snippets are my fav,
 
 -   rce - React Class Component with Filename as Component name
 
