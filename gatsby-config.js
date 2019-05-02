@@ -36,12 +36,16 @@ module.exports = {
 				path: `${__dirname}/static`
 			}
 		},
-		{
-			resolve: `gatsby-plugin-favicon`,
-			options: {
-				logo: './static/media/favicon.png'
-			}
-		},
+		// {
+		// 	resolve: `gatsby-plugin-favicon`,
+		// 	options: {
+		// 		appName: 'Dev tips By Anubhav', // Inferred with your package.json
+		// 		appDescription: siteConfig.subtitle,
+		// 		developerName: 'Anubhav',
+		// 		developerURL: 'https://theanubhav.com',
+		// 		logo: './static/media/favicon.png'
+		// 	}
+		// },
 
 		{
 			resolve: 'gatsby-plugin-feed',
@@ -178,14 +182,14 @@ module.exports = {
 		{
 			resolve: 'gatsby-plugin-manifest',
 			options: {
-				name: 'Dev tips by Anubhav Srivastava',
+				name: 'DevTips by Anubhav Srivastava',
 				short_name: 'DevTips',
 				author: 'Anubhav Srivastava',
 				start_url: '/',
-				background_color: '#FFF',
+				background_color: '#fff',
 				theme_color: '#F7A046',
 				display: 'standalone',
-				icon: 'static/media/photo.png'
+				icon: 'static/media/favicon.png'
 			}
 		},
 		'gatsby-plugin-offline',
