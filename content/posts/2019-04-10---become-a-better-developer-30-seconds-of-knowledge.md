@@ -18,3 +18,5 @@ Gain new developer skills every time you open a New Tab! Choose which programmin
 Each time you open a New Tab, you will get a random code Snippet from a library of ~900 snippets. One can save the snippet for future reference or whenever in hurry. Also, one can choose the language/framework he wants to get snippets of.
 
 Official Site: [30 seconds of Knowledge](https://30secondsofknowledge.com/)
+
+---

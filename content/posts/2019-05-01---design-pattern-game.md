@@ -26,3 +26,5 @@ All the code samples on the site are taken from this [Design-Patterns-JS](https:
 If you want a deeper dive into the subject feel free to check out [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) by Addy Osmani.
 
 Official Site: [Design-Pattern-Javascript](https://github.com/zoltantothcom/Design-Patterns-JavaScript)
+
+---

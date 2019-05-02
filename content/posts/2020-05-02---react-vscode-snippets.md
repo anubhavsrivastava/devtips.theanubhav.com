@@ -88,3 +88,5 @@ I end up with a lot of frequent component creation and below snippets are my fav
 You can check entire list on Extension main page
 
 Official Site: [VSCode Marketplace for Extension](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+
+---

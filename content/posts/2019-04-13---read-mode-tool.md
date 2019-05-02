@@ -21,3 +21,5 @@ Safari has an integrated “Reader Mode” feature, and it’s easy to use. Afte
 ![Screenshot](/media/reader-mode.png)
 
 Chrome also has this feature and calls it as "Distill Mode", but would require some experimental parameters (`--enable-dom-distiller`) to turned on before it can be used. One can refer this [post](https://www.cnet.com/how-to/how-to-enable-reader-mode-in-chrome/) to do so. Another way, and my personal one is, using [Mercury Reader](https://mercury.postlight.com/reader/) chrome extension. There are many chrome extension giving you the same behavior, but Mercury Reader hasn't disappointed me so far. I explicitly use mercury reader for printing articles since safari's in built reader output has disappointed my printer on some occasions.
+
+---

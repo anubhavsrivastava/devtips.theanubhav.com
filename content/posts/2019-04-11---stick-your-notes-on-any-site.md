@@ -20,3 +20,5 @@ I use it to chalk down action items from PRDs, Design specification, etc that I 
 ![Screenshot](/media/sticky-notes.png)
 
 Official Site: [Sticky Notes](https://blog.kumabook.tokyo/stickynotes/)
+
+---

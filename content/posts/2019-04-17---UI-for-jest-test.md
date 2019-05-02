@@ -21,3 +21,5 @@ Currently, it supports jest v20 and above. It provides, Run all the tests or a s
 , Examine test failures as they happen and lot of other features. It can be installed globally and used across projects or can also be integrated as dev dependency in a project.
 
 Official Site: [Majestic](https://github.com/Raathigesh/majestic)
+
+---

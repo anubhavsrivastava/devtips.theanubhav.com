@@ -32,3 +32,5 @@ Second one, [Refined Github](https://github.com/sindresorhus/refined-github) by 
 -   [Chrome extension](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf)
 -   [Firefox add-on](https://addons.mozilla.org/en-us/firefox/addon/refined-github-/)
 -   Opera extension: Use [this Opera extension](https://addons.opera.com/en/extensions/details/download-chrome-extension-9/) to install the Chrome version.
+
+---

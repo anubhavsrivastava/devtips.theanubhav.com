@@ -27,3 +27,5 @@ I use it as VS Code extension to share the code. Simply highlighting my code and
 As I notice, with everything in URL, I believe the tool will fail on Internet Explorer, as it has URL length limit. Haven't tested though! But that's not a concern!
 
 Official Site: [Carbon](https://dawnlabs.io/carbon)
+
+---

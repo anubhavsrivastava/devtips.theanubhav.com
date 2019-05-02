@@ -24,3 +24,5 @@ Open up VS Code and hit F1 and type ext, select install and type code-spell-chec
 ![Screenshot](/media/codespell.gif)
 
 Official Site: [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+---

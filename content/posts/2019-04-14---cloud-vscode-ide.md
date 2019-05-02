@@ -36,3 +36,5 @@ Other guides for code-server,
 There is also tool called [sshcode](https://github.com/cdr/sshcode) which is a CLI to automatically install and run code-server over SSH.
 
 Official Site: [Coder](https://coder.com/)
+
+---
