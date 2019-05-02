@@ -24,7 +24,7 @@ module.exports = {
 	],
 	author: {
 		name: 'Anubhav Srivastava',
-		photo: 'https://avatars2.githubusercontent.com/u/6449301?s=460&v=4',
+		photo: '/media/photo.png',
 		bio: 'Web Developer. Part time Open source contributor. ',
 		contacts: {
 			email: 'anubhav.srivastava00@gmail.com',
