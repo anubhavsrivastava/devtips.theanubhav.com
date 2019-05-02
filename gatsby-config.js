@@ -178,8 +178,9 @@ module.exports = {
 		{
 			resolve: 'gatsby-plugin-manifest',
 			options: {
-				name: siteConfig.title,
-				short_name: siteConfig.title,
+				name: 'Dev tips by Anubhav Srivastava',
+				short_name: 'DevTips',
+				author: 'Anubhav Srivastava',
 				start_url: '/',
 				background_color: '#FFF',
 				theme_color: '#F7A046',

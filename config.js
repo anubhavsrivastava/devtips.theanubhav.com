@@ -2,7 +2,7 @@
 
 module.exports = {
 	url: 'http://devtips.theanubhav.com',
-	title: 'Quick tips by Anubhav Srivastava',
+	title: 'Quick Dev tips by Anubhav Srivastava',
 	subtitle: 'Personal quick tips for Web Developers',
 	copyright: '.',
 	disqusShortname: 'theanubhav',
