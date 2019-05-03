@@ -23,7 +23,7 @@ You can literally do all functionalities that you would implement in server API 
 
 ![Screenshot](/media/json-server.png)
 
-Official Site: [[json-server](https://github.com/typicode/json-server)
+Official Site: [json-server](https://github.com/typicode/json-server)
 
 ## [mockit](https://mockit.netlify.com/)
 
