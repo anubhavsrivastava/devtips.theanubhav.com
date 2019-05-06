@@ -4,18 +4,19 @@
 <url> <loc>http://devtips.theanubhav.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/starting-to-chalk-down-small-tips/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/become-a-better-developer-30-seconds-of-knowledge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://devtips.theanubhav.com/posts/stick-your-notes-on-any-site</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/download-youtube-videos-with-youtubedl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/read-mode-tool</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://devtips.theanubhav.com/posts/stick-your-notes-on-any-site</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/cloud-vscode-ide</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/spell-check-vscode</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/extensions-for-github</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://devtips.theanubhav.com/posts/ui-for-jest-test</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/ui-for-npm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/carbon-to-take-code-shots</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://devtips.theanubhav.com/posts/ui-for-jest-test</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/mocking-your-api</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/design-pattern-game</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/posts/react-vscode-snippets</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://devtips.theanubhav.com/posts/bundle-phobia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/bash</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/browser</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -25,6 +26,7 @@
 <url> <loc>http://devtips.theanubhav.com/tag/java-script</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/learning-to-write</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/npm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://devtips.theanubhav.com/tag/performance</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/server</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/tag/testing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -35,6 +37,7 @@
 <url> <loc>http://devtips.theanubhav.com/category/browser</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/category/ide</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/category/java-script</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://devtips.theanubhav.com/category/java-script/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/category/tools</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/category/tools/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://devtips.theanubhav.com/category/website-inspiration</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
