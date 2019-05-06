@@ -1,5 +1,5 @@
 ---
-title: Analysis package size of every npm module
+title: Analyse package size of every npm module you install
 date: '2019-05-05T18:05:00.738Z'
 template: 'post'
 draft: false
