@@ -13,7 +13,7 @@ description: 'Find the cost of adding an npm package to your bundle'
 
 JavaScript codebase bloat is real thing today than it ever was. Sites gets bigger every single day as more libraries are thrown to solve new problems. Until of-course, the big refactoring/rewrite happens. The community has solved the problem of multiple request to fetch JS script from CDN by bundling everything using tools like webpack, rollup, parcel, etc, but there is no control on increase in bundle size. With every package imported in app, results in increase in size of bundle, sometimes huge than the actual requirement.
 
-Here is an online tool (also CLI available) that would help you analyse size of package module, called [bundlephobia](https://bundlephobia.com). his thing lets you understand the performance cost of `npm install` on a new npm package before actually adding it to your bundle. You can search over all available public packages on npm repository.
+Here is an online tool (also CLI available) that would help you analyse size of package module, called [bundlephobia](https://bundlephobia.com). This thing lets you understand the performance cost of `npm install` on a new npm package before actually adding it to your bundle. You can search over all available public packages on npm repository.
 
 Analysis report for package `axios-api-profiler` including download time and size for minified + gzipped.
 ![Screenshot](/media/bundle1.png)
