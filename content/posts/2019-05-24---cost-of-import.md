@@ -8,7 +8,7 @@ category: 'JavaScript'
 tags:
     - 'JavaScript'
     - 'Performance'
-description: 'Find the cost of importing a module in Vscode'
+description: 'Find the cost of importing a module in VScode'
 ---
 
 Recapping on previous article - [Analyse package size of every npm module](/posts/bundle-phobia), with every package imported in app, results in increase in size of bundle, sometimes huge than the actual requirement.
