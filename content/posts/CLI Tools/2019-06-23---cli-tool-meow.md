@@ -17,7 +17,7 @@ You can check all articles under [`CLI Build Tool`](/category/cli-build-tool/) t
 
 ## [meow](https://github.com/sindresorhus/meow)
 
-If you are building a CLI that has some cli options (args e.g --version), sometimes mandatory and usually optional, `meow` is the library you should be banking on. Built by sindresorhus, which adds lot of credibility to this library, is nearly used by 1.5+ million other packages.
+If you are building a CLI that has some command line options (args e.g --version), sometimes mandatory and usually optional, `meow` is the library you should be banking on. Built by sindresorhus, which adds a lot of credibility to this library, is nearly used by 1.5+ million other packages.
 
 `meow` is the easiest way to write command line apps with arguments for Node.js.
 
@@ -27,13 +27,13 @@ You do not need to worry about `process.argv` and everything around it. `meow` t
 
 ### Default support for `--help` and `--version`
 
-It provides support for showing cli options as help to user and also version of your app from `package.json` file. No extra handling is required
+It provides support for showing CLI options as help to user and also version of your app from `package.json` file. No extra handling is required
 
 ### Support for alias and descriptions
 
 You can add alias for long argument options, like --help can be -h.
 
-All flags and values are available in meow instance, which can be used by the cli for acting on it.
+All flags and values are available in meow instance, which can be used by the CLI for acting on it.
 
 You can check out official [repo](https://github.com/sindresorhus/meow) for all usage details.
 
