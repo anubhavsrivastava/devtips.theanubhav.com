@@ -8,7 +8,7 @@ category: 'CLI Build tool'
 tags:
     - 'CLI'
     - 'Tools'
-description: 'Node.js CLI App helper to loading spinners in the Terminal'
+description: 'Node.js CLI App helper for loading spinners in the Terminal'
 ---
 
 This is a series of libraries and utilities for building Command-line-interfaces aka CLI using Node.js and ecosystem around it. Similar utilities/helpers may be available for other languages but, these series is focused on JavaScript and its friends.
