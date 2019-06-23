@@ -39,3 +39,5 @@ Whenever you initiate the update notifier, it will asynchronously check with npm
 You can check out official [repo](https://github.com/yeoman/update-notifier) for all usage details.
 
 Github Repo: [update-notifier](https://github.com/yeoman/update-notifier)
+
+---
