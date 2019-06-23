@@ -37,7 +37,7 @@ All flags and values are available in meow instance, which can be used by the CL
 
 You can check out official [repo](https://github.com/sindresorhus/meow) for all usage details.
 
-![Screenshot](./blamenetmeow.png)
+![Screenshot](./meow.png)
 
 Github Repo: [meow](https://github.com/sindresorhus/meow)
 
