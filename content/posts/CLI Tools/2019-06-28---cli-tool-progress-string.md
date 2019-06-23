@@ -2,7 +2,7 @@
 title: Tool of the Trade for CLI Apps - `progress-string` 📟
 date: '2019-06-28T18:05:00.738Z'
 template: 'post'
-draft: false
+draft: true
 slug: '/posts/cli-progress-string'
 category: 'CLI Build tool'
 tags:
@@ -17,7 +17,7 @@ You can check all articles under [`CLI Build Tool`](/category/cli-build-tool/) t
 
 ## [progress-string](https://github.com/watson/progress-string)
 
-If you are building a CLI and need to show exact progress of where the computation has reached, you need to know `progress-string`. Just like (ora)[/posts/cli-ora], it helps you show progress in the terminal. In case of ora, it was a loading spinner, while `progess-string` actually shows the traditional progress bar.
+If you are building a CLI and need to show exact progress of where the computation has reached, you need to know `progress-string`. Just like [ora](/posts/cli-ora), it helps you show progress in the terminal. In case of ora, it was a loading spinner, while `progess-string` actually shows the traditional progress bar.
 
 It generates a CLI progress bar as a string that you can then output in any way you like.
 

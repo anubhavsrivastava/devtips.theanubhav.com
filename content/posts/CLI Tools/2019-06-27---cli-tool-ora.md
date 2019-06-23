@@ -55,4 +55,8 @@ You can check out official [repo](https://github.com/sindresorhus/ora) for all u
 
 Github Repo: [ora](https://github.com/sindresorhus/ora)
 
+### Related
+
+-   Check [progress-string](/posts/cli-progress-string) for showing progress bar in terminal
+
 ---
