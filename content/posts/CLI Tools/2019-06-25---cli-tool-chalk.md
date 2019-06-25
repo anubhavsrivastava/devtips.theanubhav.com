@@ -2,7 +2,7 @@
 title: Tool of the Trade for CLI Apps - `Chalk` 🖍
 date: '2019-06-25T18:05:00.738Z'
 template: 'post'
-draft: true
+draft: false
 slug: '/posts/cli-chalk'
 category: 'CLI Build tool'
 tags:

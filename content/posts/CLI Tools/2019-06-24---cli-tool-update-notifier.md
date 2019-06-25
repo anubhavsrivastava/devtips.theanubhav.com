@@ -2,7 +2,7 @@
 title: Tool of the Trade for CLI Apps - `update-notifier` 📮
 date: '2019-06-24T18:05:00.738Z'
 template: 'post'
-draft: true
+draft: false
 slug: '/posts/cli-updatenotifier'
 category: 'CLI Build tool'
 tags:
