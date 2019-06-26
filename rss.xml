@@ -1,4 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Quick Dev tips by Anubhav Srivastava]]></title><description><![CDATA[Personal quick tips for Web Developers]]></description><link>http://devtips.theanubhav.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 25 Jun 2019 15:21:47 GMT</lastBuildDate><item><title><![CDATA[Tool of the Trade for CLI Apps - `Chalk` 🖍]]></title><description><![CDATA[Node.js CLI App helper module for colorful logging]]></description><link>http://devtips.theanubhav.com/posts/cli-chalk</link><guid isPermaLink="false">http://devtips.theanubhav.com/posts/cli-chalk</guid><pubDate>Tue, 25 Jun 2019 18:05:00 GMT</pubDate><content:encoded>&lt;p&gt;This is a series of libraries and utilities for building Command-line-interfaces aka CLI using Node.js and ecosystem around it. Similar utilities/helpers may be available for other languages but, these series is focused on JavaScript and its friends.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Quick Dev tips by Anubhav Srivastava]]></title><description><![CDATA[Personal quick tips for Web Developers]]></description><link>http://devtips.theanubhav.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 26 Jun 2019 09:23:35 GMT</lastBuildDate><item><title><![CDATA[Tool of the Trade for CLI Apps - `Boxen` 🔲]]></title><description><![CDATA[Node.js CLI App helper to create boxes in the Terminal]]></description><link>http://devtips.theanubhav.com/posts/cli-boxen</link><guid isPermaLink="false">http://devtips.theanubhav.com/posts/cli-boxen</guid><pubDate>Wed, 26 Jun 2019 18:05:00 GMT</pubDate><content:encoded>&lt;p&gt;This is a series of libraries and utilities for building Command-line-interfaces aka CLI using Node.js and ecosystem around it. Similar utilities/helpers may be available for other languages but, these series is focused on JavaScript and its friends.&lt;/p&gt;
+&lt;p&gt;You can check all articles under &lt;a href=&quot;/category/cli-build-tool/&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CLI Build Tool&lt;/code&gt;&lt;/a&gt; tag.&lt;/p&gt;
+&lt;h2 id=&quot;boxen&quot;&gt;&lt;a href=&quot;#boxen&quot; aria-label=&quot;boxen permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/sindresorhus/boxen&quot;&gt;boxen&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you are building a CLI and need to present some good output wrapped in box! Yes, square box, ‘boxen’ is the tool for you. Just like you had seen boxes around output of &lt;code class=&quot;language-text&quot;&gt;update-notifier&lt;/code&gt;. It makes the CLI app more appealing.&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a408d387490a426343fe94359bea9c1c/79fdd/updatenotifier.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 30.655957161981256%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsSAAALEgHS3X78AAAAnUlEQVQY04WQ/Q6DIAzEfSBaCi0fUxF07v1faTVRZ0y2HZf+Qfj1LnRwkQFAPbsQ/qk7MWsxJ+8dsEfxqJMdBLabhfRG2KbgHFljbrAB2mBeX2ub21hGnfPSYoqqIDwtJebonRUmc9AfWJNj9LW2PFXph9APj+cqw6gOKdXWSpmI8CvcZ69t96pMm+Uwk2KareH32vsXIeqK376+fwMyd0UF9mo7NwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Screenshot&quot;
+        title=&quot;&quot;
+        src=&quot;/static/a408d387490a426343fe94359bea9c1c/f570d/updatenotifier.png&quot;
+        srcset=&quot;/static/a408d387490a426343fe94359bea9c1c/0783d/updatenotifier.png 240w,
+/static/a408d387490a426343fe94359bea9c1c/782f4/updatenotifier.png 480w,
+/static/a408d387490a426343fe94359bea9c1c/f570d/updatenotifier.png 960w,
+/static/a408d387490a426343fe94359bea9c1c/8d0ff/updatenotifier.png 1440w,
+/static/a408d387490a426343fe94359bea9c1c/a987b/updatenotifier.png 1920w,
+/static/a408d387490a426343fe94359bea9c1c/8e724/updatenotifier.png 2880w,
+/static/a408d387490a426343fe94359bea9c1c/79fdd/updatenotifier.png 2988w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It can present your application output in boxes with various styles like ‘double dashed’, ‘rounded corners’ along with some ‘margin’ and ‘padding’ options.&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7f37ce2c33cdfd8312339aa0eebc892e/6d69a/boxen.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 28.186714542190305%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsSAAALEgHS3X78AAAAdklEQVQY05WQ7QqAIAxFe5vUbBamrg/LiN7/lZoJUUFFcNif3QN3y5iwZ3jhnrgliexiShTQMsrFqGMSc0kzIsqWeJPTWtVem1mboMGjChYmA+Ox/ZQHhwv2a1P6oVrIdyrwT3mv3fECWbpwr52ItaF7k/8+bAM+lkIfbx1OFAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Screenshot&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7f37ce2c33cdfd8312339aa0eebc892e/f570d/boxen.png&quot;
+        srcset=&quot;/static/7f37ce2c33cdfd8312339aa0eebc892e/0783d/boxen.png 240w,
+/static/7f37ce2c33cdfd8312339aa0eebc892e/782f4/boxen.png 480w,
+/static/7f37ce2c33cdfd8312339aa0eebc892e/f570d/boxen.png 960w,
+/static/7f37ce2c33cdfd8312339aa0eebc892e/8d0ff/boxen.png 1440w,
+/static/7f37ce2c33cdfd8312339aa0eebc892e/a987b/boxen.png 1920w,
+/static/7f37ce2c33cdfd8312339aa0eebc892e/6d69a/boxen.png 2785w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Boxen has a very easy to follow, simple to use API. Here is a code example:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; boxen &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;boxen&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;boxen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;unicorn&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; padding&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;/*
+┌─────────────┐
+│             │
+│   unicorn   │
+│             │
+└─────────────┘
+*/&lt;/span&gt;
+
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;boxen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;unicorn&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; padding&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; margin&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; borderStyle&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;double&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;/*
+
+   ╔═════════════╗
+   ║             ║
+   ║   unicorn   ║
+   ║             ║
+   ╚═════════════╝
+
+*/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can check out official &lt;a href=&quot;https://github.com/sindresorhus/boxen&quot;&gt;repo&lt;/a&gt; for all usage details.&lt;/p&gt;
+&lt;p&gt;Github Repo: &lt;a href=&quot;https://github.com/sindresorhus/boxen&quot;&gt;boxen&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;</content:encoded></item><item><title><![CDATA[Tool of the Trade for CLI Apps - `Chalk` 🖍]]></title><description><![CDATA[Node.js CLI App helper module for colorful logging]]></description><link>http://devtips.theanubhav.com/posts/cli-chalk</link><guid isPermaLink="false">http://devtips.theanubhav.com/posts/cli-chalk</guid><pubDate>Tue, 25 Jun 2019 18:05:00 GMT</pubDate><content:encoded>&lt;p&gt;This is a series of libraries and utilities for building Command-line-interfaces aka CLI using Node.js and ecosystem around it. Similar utilities/helpers may be available for other languages but, these series is focused on JavaScript and its friends.&lt;/p&gt;
 &lt;p&gt;You can check all articles under &lt;a href=&quot;/category/cli-build-tool/&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CLI Build Tool&lt;/code&gt;&lt;/a&gt; tag.&lt;/p&gt;
 &lt;h2 id=&quot;chalk&quot;&gt;&lt;a href=&quot;#chalk&quot; aria-label=&quot;chalk permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/chalk/chalk&quot;&gt;chalk&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;If you are building a CLI that done some good amount of console logs, i.e, logging on the terminal, you would want it to be more user friendly and be able to differentiate between various message. Constantly adding logged messages means that the most important messages can get lost in the shuffle. &lt;code class=&quot;language-text&quot;&gt;Chalk&lt;/code&gt; is here to solve that, Terminal string styling done right!&lt;/p&gt;
