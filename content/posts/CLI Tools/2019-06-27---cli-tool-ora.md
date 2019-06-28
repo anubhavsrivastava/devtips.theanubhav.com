@@ -2,7 +2,7 @@
 title: Tool of the Trade for CLI Apps - `ORA` 🔅
 date: '2019-06-27T18:05:00.738Z'
 template: 'post'
-draft: true
+draft: false
 slug: '/posts/cli-ora'
 category: 'CLI Build tool'
 tags:
