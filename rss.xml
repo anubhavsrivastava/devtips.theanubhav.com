@@ -1,4 +1,139 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Quick Dev tips by Anubhav Srivastava]]></title><description><![CDATA[Personal quick tips for Web Developers]]></description><link>http://devtips.theanubhav.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 28 Jun 2019 19:09:33 GMT</lastBuildDate><item><title><![CDATA[Tool of the Trade for CLI Apps - `progress-string` 📟]]></title><description><![CDATA[Node.js CLI App helper for showing progress on the Terminal]]></description><link>http://devtips.theanubhav.com/posts/cli-progress-string</link><guid isPermaLink="false">http://devtips.theanubhav.com/posts/cli-progress-string</guid><pubDate>Fri, 28 Jun 2019 18:05:00 GMT</pubDate><content:encoded>&lt;p&gt;This is a series of libraries and utilities for building Command-line-interfaces aka CLI using Node.js and ecosystem around it. Similar utilities/helpers may be available for other languages but, these series is focused on JavaScript and its friends.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Quick Dev tips by Anubhav Srivastava]]></title><description><![CDATA[Personal quick tips for Web Developers]]></description><link>http://devtips.theanubhav.com</link><generator>RSS for Node</generator><lastBuildDate>Sun, 30 Jun 2019 14:09:58 GMT</lastBuildDate><item><title><![CDATA[Tool of the Trade for CLI Apps - `node-notifier`  📺]]></title><description><![CDATA[Node.js CLI App helper for showing notifications]]></description><link>http://devtips.theanubhav.com/posts/cli-node-notifier</link><guid isPermaLink="false">http://devtips.theanubhav.com/posts/cli-node-notifier</guid><pubDate>Sun, 30 Jun 2019 18:05:00 GMT</pubDate><content:encoded>&lt;p&gt;This is a series of libraries and utilities for building Command-line-interfaces aka CLI using Node.js and ecosystem around it. Similar utilities/helpers may be available for other languages but, these series is focused on JavaScript and its friends.&lt;/p&gt;
+&lt;p&gt;You can check all articles under &lt;a href=&quot;/category/cli-build-tool/&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CLI Build Tool&lt;/code&gt;&lt;/a&gt; tag.&lt;/p&gt;
+&lt;h2 id=&quot;node-notifier&quot;&gt;&lt;a href=&quot;#node-notifier&quot; aria-label=&quot;node notifier permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/mikaelbr/node-notifier&quot;&gt;node-notifier&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you are building a CLI and need to show notification to user to make your CLI more interactive and user friendly, &lt;code class=&quot;language-text&quot;&gt;node-notifier&lt;/code&gt; is the package you need. Of course, it is cross-platform and you can send notifications on native Mac, Windows and Linux.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;on Mac&lt;/em&gt;
+&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/83a56cfa009df9011b55c309d30b16f4/17294/nodenotifier1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 326px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 19.938650306748468%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAABAUlEQVQY022OvUvEQBDF83da2tgINiIIChYWWohWVrYnxOL0kPsT0nkoUTGXhHx/ECTZ3eze7RmTGXdTCIIDP97jzfAYg5ImgP5bfG0knU7v2eJpweI4YlEUsTAMlY9Z0zSsrut/IaRha8HpRq4lIeTdsF4/xOH5Bd7c3qFpmmhZFnqeh47joG3bo1ZVhUKIP7ScYyclPvsh7p5d4v7xCU5m88p4cVx2enWN5mwOWZaBs1yC67oQBAH4vg+qfNQ8z6Eoil9SdcsZg7cwgu2Do2FrZw8nD4+FocJPVNN3HZRlieoY0zRFVT56rZokSUb0Tufa689526JcrYah75FSmvwANnga4YYgamEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Screenshot&quot;
+        title=&quot;&quot;
+        src=&quot;/static/83a56cfa009df9011b55c309d30b16f4/17294/nodenotifier1.png&quot;
+        srcset=&quot;/static/83a56cfa009df9011b55c309d30b16f4/0783d/nodenotifier1.png 240w,
+/static/83a56cfa009df9011b55c309d30b16f4/17294/nodenotifier1.png 326w&quot;
+        sizes=&quot;(max-width: 326px) 100vw, 326px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;on Windows&lt;/em&gt;
+&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9b017de93143c68386899dab1fce05d8/0c144/nodenotifier2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 234px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 27.77777777777778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAABB0lEQVQY022Ry06EQBBF+ytGozbPpGkcBsIbQsCICxNWggkJ3+DjA1zo0s++UhWZZEYXJ0V307furRZyH8P0D7j1fcRxjCRJjpRlyXtpmkJrDcuyYNs24zjOH5RSEPvXT9y9f+Dx4R5d12FZFgzDgHEcMU0T13meUVUVpJRwXZeFDcM4gc6oqXj6+kY1LZAqRnQIWNRf3RZFgSiK+JscNk2DLMvQti3CMGQB0zRPoD3x/PKGK1PhQqpVJOeLQRCwYF3XLEpN+r7n9ebuXGxDXO52MFZleXPNnUkoz3N2Q7OinyjmNqct3jnGbxUUSWsf3pqf3FA8gh7F8zyeC9UNWv+HqzSUp/EDcFG2fPdncQgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Screenshot&quot;
+        title=&quot;&quot;
+        src=&quot;/static/9b017de93143c68386899dab1fce05d8/0c144/nodenotifier2.png&quot;
+        srcset=&quot;/static/9b017de93143c68386899dab1fce05d8/0c144/nodenotifier2.png 234w&quot;
+        sizes=&quot;(max-width: 234px) 100vw, 234px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For instance, if your CLI watches a file (like &lt;code class=&quot;language-text&quot;&gt;chowkidar&lt;/code&gt;) and takes an action (like restarting a service or rebuilding your project), you can notify using system notifications along with CLI output.&lt;/p&gt;
+&lt;p&gt;Input Example macOS Notification Center
+&lt;img src=&quot;/node-notifier-e640acc7a8fc6be16b1f4ded82711fa4.gif&quot; alt=&quot;Screenshot&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;node-notifier&lt;/code&gt; has a very easy to follow, simple to use API. Here is a code example:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; notifier &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;node-notifier&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// String&lt;/span&gt;
+notifier&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;notify&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Message&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Object&lt;/span&gt;
+notifier&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;notify&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	title&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;My notification&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+	message&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Hello, there!&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;There are a lot of conditions and scenarios for cross platform implementation of this module.
+You can check out official &lt;a href=&quot;https://github.com/mikaelbr/node-notifier&quot;&gt;repo&lt;/a&gt; for all usage details.&lt;/p&gt;
+&lt;p&gt;Github Repo: &lt;a href=&quot;https://github.com/mikaelbr/node-notifier&quot;&gt;node-notifier&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;related&quot;&gt;&lt;a href=&quot;#related&quot; aria-label=&quot;related permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Related&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Check &lt;a href=&quot;https://github.com/mikaelbr/node-notifier-cli&quot;&gt;node-notifier-cli&lt;/a&gt; - CLI version for this module&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content:encoded></item><item><title><![CDATA[Tool of the Trade for CLI Apps - `open` 🗃]]></title><description><![CDATA[Node.js CLI App helper for open a file in external application]]></description><link>http://devtips.theanubhav.com/posts/cli-open</link><guid isPermaLink="false">http://devtips.theanubhav.com/posts/cli-open</guid><pubDate>Sat, 29 Jun 2019 18:05:00 GMT</pubDate><content:encoded>&lt;p&gt;This is a series of libraries and utilities for building Command-line-interfaces aka CLI using Node.js and ecosystem around it. Similar utilities/helpers may be available for other languages but, these series is focused on JavaScript and its friends.&lt;/p&gt;
+&lt;p&gt;You can check all articles under &lt;a href=&quot;/category/cli-build-tool/&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CLI Build Tool&lt;/code&gt;&lt;/a&gt; tag.&lt;/p&gt;
+&lt;h2 id=&quot;open&quot;&gt;&lt;a href=&quot;#open&quot; aria-label=&quot;open permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/sindresorhus/open&quot;&gt;open&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you are building a CLI and need to open a file in external application or a URL in a browser, &lt;code class=&quot;language-text&quot;&gt;open&lt;/code&gt; is the package you need. The best part is, it is cross-platform. You can open stuff like URLs, files, executable(s) (across platforms), it also claims to be safer as it uses ‘spawn’ instead of ‘exec’.&lt;/p&gt;
+&lt;p&gt;You may have seen option to open your repository folder in your IDE, in Github Desktop App (Electron based). You can achieve such functionality using ‘open’&lt;/p&gt;
+&lt;p&gt;“Open in Visual Studio Code” option in Github Desktop App.
+&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a978dcb4ea7e81028ddfd8e4b0c0b135/9d4f3/open.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 37.19599427753934%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABIElEQVQoz3VR2U7DMBDMjyBRaO77cJqkbdI0V0kRoioS//8lg3eDowqJh9HaXntmZ6xtLR+EV9PDRnfwYriM563Ne+rpdvAvqG844brW6HEsKhxOA+rzhH3T49S/oZve0Q4zTDdiARJ8hBJWgqYkXQnDtODHBCI7tiPO4xVNd0FWHCGqhmu6OzBEWWO3PyGX506Q4vb1jW6c2ZFGanSY5HtEWQk/zn8jWGLQbZ+nfITlxStoura/SPKa72sqP8rB8iLYfiIFErgSXpSxAJH8tUvTqMyfNgZnTuRMqEtQZtP1hvnjjmb8hOjuEMcJQlp1w2zNiggTabuoO5R1j6oZuBpSlDNUv+wEGdxIsH0iMHgqn6cgEnVv+VWyHi/wlqp6P4Re2bfSMRM0AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Screenshot&quot;
+        title=&quot;&quot;
+        src=&quot;/static/a978dcb4ea7e81028ddfd8e4b0c0b135/f570d/open.png&quot;
+        srcset=&quot;/static/a978dcb4ea7e81028ddfd8e4b0c0b135/0783d/open.png 240w,
+/static/a978dcb4ea7e81028ddfd8e4b0c0b135/782f4/open.png 480w,
+/static/a978dcb4ea7e81028ddfd8e4b0c0b135/f570d/open.png 960w,
+/static/a978dcb4ea7e81028ddfd8e4b0c0b135/9d4f3/open.png 1398w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;open&lt;/code&gt; has a very easy to follow, simple to use API. Here is a code example:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; open &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;open&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Opens the image in the default image viewer&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;unicorn.png&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; wait&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;//wait option will wait for app to close&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;The image viewer app closed&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Opens the url in the default browser&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;https://sindresorhus.com&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Specify the app to open in&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;https://sindresorhus.com&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; app&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;firefox&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Specify app arguments&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;https://sindresorhus.com&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; app&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;google chrome&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;--incognito&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can check out official &lt;a href=&quot;https://github.com/sindresorhus/open&quot;&gt;repo&lt;/a&gt; for all usage details.&lt;/p&gt;
+&lt;p&gt;Github Repo: &lt;a href=&quot;https://github.com/sindresorhus/open&quot;&gt;open&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;related&quot;&gt;&lt;a href=&quot;#related&quot; aria-label=&quot;related permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Related&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Check &lt;a href=&quot;https://github.com/sindresorhus/open-cli&quot;&gt;open-cli&lt;/a&gt; - CLI version for this module&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content:encoded></item><item><title><![CDATA[Tool of the Trade for CLI Apps - `progress-string` 📟]]></title><description><![CDATA[Node.js CLI App helper for showing progress on the Terminal]]></description><link>http://devtips.theanubhav.com/posts/cli-progress-string</link><guid isPermaLink="false">http://devtips.theanubhav.com/posts/cli-progress-string</guid><pubDate>Fri, 28 Jun 2019 18:05:00 GMT</pubDate><content:encoded>&lt;p&gt;This is a series of libraries and utilities for building Command-line-interfaces aka CLI using Node.js and ecosystem around it. Similar utilities/helpers may be available for other languages but, these series is focused on JavaScript and its friends.&lt;/p&gt;
 &lt;p&gt;You can check all articles under &lt;a href=&quot;/category/cli-build-tool/&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CLI Build Tool&lt;/code&gt;&lt;/a&gt; tag.&lt;/p&gt;
 &lt;h2 id=&quot;progress-string&quot;&gt;&lt;a href=&quot;#progress-string&quot; aria-label=&quot;progress string permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/watson/progress-string&quot;&gt;progress-string&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;If you are building a CLI and need to show exact progress of where the computation has reached, you need to know &lt;code class=&quot;language-text&quot;&gt;progress-string&lt;/code&gt;. Just like &lt;a href=&quot;/posts/cli-ora&quot;&gt;ora&lt;/a&gt;, it helps you show progress in the terminal. In case of ora, it was a loading spinner, while &lt;code class=&quot;language-text&quot;&gt;progess-string&lt;/code&gt; actually shows the traditional progress bar.&lt;/p&gt;
