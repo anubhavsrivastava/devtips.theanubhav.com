@@ -2,7 +2,7 @@
 title: Tool of the Trade for CLI Apps - `node-notifier`  📺
 date: '2019-06-30T18:05:00.738Z'
 template: 'post'
-draft: true
+draft: false
 slug: '/posts/cli-node-notifier'
 category: 'CLI Build tool'
 tags:
