@@ -2,7 +2,7 @@
 title: Tool of the Trade for CLI Apps - `open` 🗃
 date: '2019-06-29T18:05:00.738Z'
 template: 'post'
-draft: true
+draft: false
 slug: '/posts/cli-open'
 category: 'CLI Build tool'
 tags:
