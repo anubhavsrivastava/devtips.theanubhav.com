@@ -1,6 +1,6 @@
 ---
 title: Tool of the Trade for CLI Apps - `execa` 🖥
-date: '2019-07-01T18:05:00.738Z'
+date: '2019-07-02T18:05:00.738Z'
 template: 'post'
 draft: false
 slug: '/posts/cli-execa'
