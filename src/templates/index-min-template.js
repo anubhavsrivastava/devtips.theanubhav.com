@@ -22,14 +22,14 @@ const IndexMinTemplate = ({ data, pageContext }) => {
 };
 
 export const query = graphql`
-	query IndexMinTemplate($postsLimit: Int!, $postsOffset: Int!) {
+	query IndexMinTemplate($postsOffset: Int!) {
 		site {
 			siteMetadata {
 				title
 				subtitle
 			}
 		}
-		allMarkdownRemark(limit: $postsLimit, skip: $postsOffset, filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }, sort: { order: DESC, fields: [frontmatter___date] }) {
+		allMarkdownRemark(skip: $postsOffset, filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }, sort: { order: DESC, fields: [frontmatter___date] }) {
 			edges {
 				node {
 					fields {
