@@ -2,6 +2,7 @@
 title: Tool of the Trade for CLI Apps - `Meow` 🐈
 date: '2019-06-23T18:05:00.738Z'
 template: 'post'
+series: true
 draft: false
 slug: '/posts/cli-meow'
 category: 'CLI Build tool'

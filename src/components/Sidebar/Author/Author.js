@@ -31,6 +31,17 @@ const Author = ({ author, isIndex }) => (
 				Blogs
 			</a>
 		</p>
+		<h2 className={styles['author__title']}>
+			<Link className={styles['author__title-link']} to="/">
+				Checkout Series
+			</Link>
+		</h2>
+		<p className={styles['author__subtitle']}>
+			<Link style={{ margin: '20px' }} to="/category/cli-build-tool">
+				CLI Build Tool
+			</Link>
+		</p>
+
 		<p className={styles['author__subtitle']}>Site for personal quick tips for Web Developers</p>
 	</div>
 );

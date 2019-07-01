@@ -2,6 +2,7 @@
 title: Tool of the Trade for CLI Apps - `Boxen` 🔲
 date: '2019-06-26T18:05:00.738Z'
 template: 'post'
+series: true
 draft: false
 slug: '/posts/cli-boxen'
 category: 'CLI Build tool'
