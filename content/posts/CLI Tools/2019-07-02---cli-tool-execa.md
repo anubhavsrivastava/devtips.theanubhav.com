@@ -2,7 +2,7 @@
 title: Tool of the Trade for CLI Apps - `execa` 🖥
 date: '2019-07-01T18:05:00.738Z'
 template: 'post'
-draft: true
+draft: false
 slug: '/posts/cli-execa'
 category: 'CLI Build tool'
 tags:
