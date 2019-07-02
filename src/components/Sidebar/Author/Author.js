@@ -28,12 +28,12 @@ const Author = ({ author, isIndex }) => (
 			</a>
 
 			<a style={{ margin: '20px' }} href="//theanubhav.com">
-				Blogs
+				Technical Blog
 			</a>
 		</p>
 		<h2 className={styles['author__title']}>
 			<Link className={styles['author__title-link']} to="/">
-				Checkout Series
+				Series Posts
 			</Link>
 		</h2>
 		<p className={styles['author__subtitle']}>
