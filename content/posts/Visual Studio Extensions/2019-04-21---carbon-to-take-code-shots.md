@@ -3,11 +3,13 @@ title: Admire beautiful images of your source code
 date: '2019-04-21T18:05:00.738Z'
 template: 'post'
 draft: false
+series: true
 slug: '/posts/carbon-to-take-code-shots'
-category: 'Tools'
+category: 'VSCode IDE'
 tags:
     - 'Tools'
     - 'Code'
+    - 'IDE'
 description: 'Are you impressed by code screenshot that you see twitter and online? and wonder, which IDE theme are people using? or you want to share your professional awesome code screenshot with colleague? Here is the tool everyone is using! '
 ---
 

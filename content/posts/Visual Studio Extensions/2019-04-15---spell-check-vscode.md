@@ -4,7 +4,8 @@ date: '2019-04-15T18:05:00.738Z'
 template: 'post'
 draft: false
 slug: '/posts/spell-check-vscode'
-category: 'IDE'
+category: 'VSCode IDE'
+series: true
 tags:
     - 'Tools'
     - 'IDE'
