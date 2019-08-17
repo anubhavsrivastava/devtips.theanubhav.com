@@ -28,9 +28,11 @@ const Author = ({ author, isIndex }) => (
 			</a>
 
 			<a style={{ margin: '20px' }} href="//theanubhav.com">
-				Technical Blog
+				Blog
 			</a>
 		</p>
+		<p className={styles['author__subtitle']}>Personal quick tips for Web Developers</p>
+
 		<h2 className={styles['author__title']}>
 			<Link className={styles['author__title-link']} to="/">
 				Series Posts
@@ -40,9 +42,30 @@ const Author = ({ author, isIndex }) => (
 			<Link style={{ margin: '20px' }} to="/category/cli-build-tool">
 				CLI Build Tool
 			</Link>
+			<br />
+			<Link style={{ margin: '20px' }} to="/category/vs-code-ide">
+				VSCode Extensions
+			</Link>
 		</p>
 
-		<p className={styles['author__subtitle']}>Site for personal quick tips for Web Developers</p>
+		<h2 className={styles['author__title']}>
+			<Link className={styles['author__title-link']} to="/">
+				Links
+			</Link>
+		</h2>
+		<p className={styles['author__subtitle']}>
+			<Link style={{ margin: '20px' }} to="/all">
+				All Tips
+			</Link>
+			<br />
+			<Link style={{ margin: '20px' }} to="/categories">
+				Categories
+			</Link>
+			<br />
+			<Link style={{ margin: '20px' }} to="/tags">
+				Tags
+			</Link>
+		</p>
 	</div>
 );
 
