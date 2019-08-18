@@ -3,8 +3,9 @@ title: VSCode React/Redux snippets for quick coding in React
 date: '2019-05-02T18:05:00.738Z'
 template: 'post'
 draft: false
+series: true
 slug: '/posts/react-vscode-snippets'
-category: 'IDE'
+category: 'VSCode IDE'
 tags:
     - 'React'
     - 'Code'
