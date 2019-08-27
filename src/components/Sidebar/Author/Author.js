@@ -46,6 +46,10 @@ const Author = ({ author, isIndex }) => (
 			<Link style={{ margin: '20px' }} to="/category/vs-code-ide">
 				VSCode Extensions
 			</Link>
+			<br />
+			<Link style={{ margin: '20px' }} to="/category/js-pitfall">
+				JavaScript Pitfalls
+			</Link>
 		</p>
 
 		<h2 className={styles['author__title']}>
