@@ -10,7 +10,7 @@ tags:
     - 'React'
     - 'Code'
     - 'IDE'
-description: 'Code in React/Redux with snippets using best available VSCode extension'
+description: 'Code in React/Redux with snippets using best available VSCode extensions'
 ---
 
 Code snippets are shorthand keystrokes that help you type frequently used code sections quickly. We have plenty of such plugins/extensions available for various IDE(s). You simply type in a short string (usually 2-3 characters) and it expands into code section. For example, in VSCode, typing `foreach` followed by →Tab would expand into Array.prototype.forEach snippet as shown below.
