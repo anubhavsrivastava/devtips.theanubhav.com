@@ -2,6 +2,7 @@
   "version": "1.0.0",
   "name": "devtips.theanubhav.com",
   "description": "Personal quick tips for Web Developers",
+  "license": "ISC",
   "main": "n/a",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
