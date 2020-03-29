@@ -12,7 +12,7 @@ tags:
 description: 'Download Youtube videos with `youtube-dl`, a CLI based utility to download videos in desired format, download entire playlist, download only new videos and what not.'
 ---
 
-There are plenty of download tools available for Youtube videos. But someday or the other they shall disappoint you. For asking for ransom to keep using, or failing to download every now and then, download would suck; especially for OSX users.
+There are plenty of download tools available for Youtube videos. But someday or the other they shall disappoint you. They would ask for ransom to keep using, or failing to download every now and then, download would suck; especially for OSX users.
 
 For some time I have been using `youtube-dl` (which I had mentioned in [other post](/posts/stick-your-notes-on-any-site)) and it has worked like a charm for me. It is a CLI tool with huge options, right from video/audio quality to downloading only latest videos and what not.
 
