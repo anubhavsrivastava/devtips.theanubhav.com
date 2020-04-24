@@ -3,10 +3,10 @@ import styles from "./Sponsor.module.scss";
 
 const Sponsor = () => (
   <div className={styles["sponsor"]}>
-    Consider
+    Become a
     <a target="_blank" href="https://theanubhav.com/sponsor">
       {" "}
-      sponsoring
+      sponsor
     </a>
   </div>
 );
