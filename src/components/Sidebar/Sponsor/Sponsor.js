@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Sponsor.module.scss";
 
-const Contacts = () => (
+const Sponsor = () => (
   <div className={styles["sponsor"]}>
     Consider
     <a target="_blank" href="https://theanubhav.com/sponsor">
@@ -11,4 +11,4 @@ const Contacts = () => (
   </div>
 );
 
-export default Contacts;
+export default Sponsor;

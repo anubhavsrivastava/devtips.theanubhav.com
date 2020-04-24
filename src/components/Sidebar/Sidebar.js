@@ -3,6 +3,7 @@ import { graphql, StaticQuery } from "gatsby";
 import Author from "./Author";
 import Contacts from "./Contacts";
 import Sponsor from "./Sponsor";
+import Newsletter from "./Newsletter";
 import Copyright from "./Copyright";
 import Menu from "./Menu";
 import styles from "./Sidebar.module.scss";
@@ -17,6 +18,7 @@ export const PureSidebar = ({ data, isIndex }) => {
         {/* <Menu menu={menu} /> */}
         <Contacts contacts={author.contacts} />
         <Sponsor />
+        <Newsletter />
         {/* <Copyright copyright={copyright} /> */}
       </div>
     </div>
