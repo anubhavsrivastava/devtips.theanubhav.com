@@ -55,12 +55,14 @@ const Author = ({ author, isIndex }) => (
         JavaScript Pitfalls
       </Link>
       <br />
-
       <Link style={{ margin: "20px" }} to="/category/package-manager">
         Package Managers
       </Link>
       <br />
-
+      <Link style={{ margin: "20px" }} to="/category/chrome">
+        Chrome Devtools
+      </Link>
+      <br />
       <Link style={{ margin: "20px" }} to="/category/cli-build-tool">
         CLI Build Tool
       </Link>
